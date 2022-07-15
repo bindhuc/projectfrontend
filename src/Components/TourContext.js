@@ -145,38 +145,39 @@ export const TourContext=createContext();
           },
      ])
      let [Hollywood,setHollywood]=useState([
-         {
-             id:"17",
-            image:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Fruktsallad_%28Fruit_salad%29.jpg/250px-Fruktsallad_%28Fruit_salad%29.jpg" ,
-            name:"Fruit salad",
-            info:"Fruit salad is a dish consisting of various kinds of fruit, sometimes served in a liquid, either their own juices or a syrup.",
-            date:"Food/March 2022",
-            description:"There are many types of fruit salad, ranging from the basic (no nuts, marshmallows, or dressing) to the moderately sweet (Waldorf salad) to the sweet (ambrosia salad). Another salad containing fruit is a jello salad, with its many variations.",
+        {
+            id:"21",
+           image:"https://www.looper.com/img/gallery/20-epic-movies-like-avatar-you-need-to-watch-next/l-intro-1645555067.jpg",
+           name:"Avatar",
+           info:"Avatar is a 2009 American epic science fiction film directed, written, produced, and co-edited by James Cameron and starring Sam Worthington, Zoe Saldana",
+             date:"Hollywood/ 2009",
+           description:"On the lush alien world of Pandora live the Na'vi, beings who appear primitive but are highly evolved. Because the planet's environment is poisonous"
+        },
+        {
+            id:"22",
+            image:"https://i.ytimg.com/vi/l-LD16Yzi2c/maxresdefault.jpg",
+            name:"Uncharted",
+            info:"Uncharted is a 2022 American action-adventure film directed by Ruben Fleischer from a screenplay by Rafe Lee Judkin",
+              date:"Hollywood/ 2022",
+            description:"Victor Sullivan recruits Nathan Drake to help him find the lost fortune of Ferdinand Magellan",
          },
          {
-             id:"18",
-             image:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Fattoush_mixed-salad.jpg/250px-Fattoush_mixed-salad.jpg" ,
-             name:"Fattoush",
-             info:"Fattoush is a Levantine salad made from toasted  (Arabic flat bread) combined with mixed greens and other vegetables, such as radishes and tomatoes.",
-             date:"Food/March 2022",
-             description:"Fattush belongs to the family of dishes known as fattat (plural of fatteh), which use stale flatbread as a base. Fattoush includes vegetables and herbs varying by season and taste. The vegetables are cut into relatively large pieces compared to tabbouleh which requires ingredients to be finely chopped",
-          },
-          {
-              id:"19",
-             image:"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Pudim_Abade_de_Priscos.png/220px-Pudim_Abade_de_Priscos.png" ,
-             name:"Pudding",
-             info:"Pudding is a type of food that can be either a dessert or a savoury (salty or spicy) dish that is part of the main meal.",
-             description:"In North America, pudding characteristically denotes a sweet, milk-based dessert similar in consistency to egg-based custards, instant custards or a mousse, often commercially set using cornstarch, gelatin or similar coagulating agent such as Jell-O.",
-          },
-          {
-              id:"20",
-             image:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/220px-Glazed-Donut.jpg" ,
-             name:"Doughnut",
-             info:"A doughnut or donut is a type of food made from leavened fried dough.",
-             date:"Food/March 2022",
-             description:"Doughnuts are usually deep fried from a flour dough, but other types of batters can also be used. Various toppings and flavorings are used for different types, such as sugar, chocolate or maple glazing. Doughnuts may also include water, leavening, eggs, milk, sugar, oil, shortening, and natural or artificial flavors. ",
-          },
-     ])
+             id:"23",
+            image:"https://img1.hotstarext.com/image/upload/f_auto,t_vl/sources/r1/cms/prod/5157/875157-v",
+            name:"Avengers: Endgame",
+            info:"After Thanos, an intergalactic warlord, disintegrates half of the universe",
+             date:"Hollywood/April 2019",
+            description:"The grave course of events set in motion by Thanos that wiped out half the universe and fractured the Avengers ranks",
+         },
+         {
+             id:"24",
+            image:"https://c.ndtvimg.com/k3bo7b8o_dark-knight-instagram_625x300_19_July_18.jpg",
+            name:"The Dark Knight",
+            info:"After Gordon, Dent and Batman begin an assault on Gotham's organised crime",
+            date:"Hollywood/2008",
+            description:"the mobs hire the Joker, a psychopathic criminal mastermind who offers to kill Batman and bring the city to its knees",
+        },
+    ])
 console.log("hiiiiii")
 return (
     <TourContext.Provider  value={{value1:[Tourist,setTourist],
